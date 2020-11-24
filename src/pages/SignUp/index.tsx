@@ -13,10 +13,10 @@ import { Form } from '@unform/mobile';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 
+import Icon from 'react-native-vector-icons/Feather';
 import api from '../../services/api';
 
 import getValidationErrors from '../../utils/getValidationErrors';
-import Icon from 'react-native-vector-icons/Feather';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
